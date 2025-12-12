@@ -82,10 +82,6 @@ app.get("/admin/dashboard", (req, res) => {
 });
 
 
-// -------------------------------------------------------------------
-// ADMIN STORAGE MANAGEMENT ROUTES (Defined with app.get/app.post)
-// -------------------------------------------------------------------
-
 // ADD STORAGE
 // GET: Show Add Form
 app.get("/admin/storage/add", adminController.showAddForm);
